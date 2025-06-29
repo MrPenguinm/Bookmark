@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .btn {
+    @apply px-6 py-2 transition-all shadow-lg hover:shadow-md rounded-md duration-300;
+  }
+  .btn-purple {
+    @apply bg-bookmark-purple text-white  hover:bg-blue-400;
+  }
+  .btn-white {
+    @apply bg-bookmark-white hover:bg-yellow-50;
+  }
+}
+@layer utilities {
+  .open .faq-answer {
+    @apply max-h-96;
+  }
+
+  .open .faq-icon {
+    @apply rotate-180;
+  }
+}
