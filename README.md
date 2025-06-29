@@ -13,7 +13,7 @@ Open a new browser tab and see your sites load instantly. Try it for free.
 ## 📁 Project Structure
 
 ```bash
-📁 src/
+📁 docs/
 │   ├── index.html          # Main HTML file
 │   ├── input.css           # Tailwind input file
 │   ├── output.css          # Tailwind compiled output
